@@ -64,6 +64,7 @@ def main():
                 ])
 
             count += len(items)
+            print("{:06d}".format(count), end="\r")
 
 
 if __name__ == "__main__":
